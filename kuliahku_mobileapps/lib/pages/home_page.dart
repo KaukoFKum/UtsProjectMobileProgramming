@@ -15,7 +15,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int doneCount = 0;
   int bookmarkCount = 0;
-  final int totalMeetings = 7;
+  final int totalMeetings = 8;
 
   @override
   void initState() {
@@ -139,7 +139,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         "title": "Medium",
-        "desc": "Form, ListView, Navigation",
+        "desc": "Form, ListView, Navigation, AutoComplete",
         "icon": Icons.layers_rounded,
         "color": AppColors.accent,
       },
@@ -243,7 +243,7 @@ class _HomePageState extends State<HomePage> {
                     Expanded(
                       child: statCard(
                         Icons.auto_stories_rounded,
-                        "7",
+                        "8",
                         "Materi Pertemuan",
                         AppColors.primary,
                       ),

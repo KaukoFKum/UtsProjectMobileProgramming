@@ -504,7 +504,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               Row(
                                 children: [
                                   statBox(
-                                    "7",
+                                    "8",
                                     "Materi",
                                     Icons.menu_book_rounded,
                                     AppColors.primary,

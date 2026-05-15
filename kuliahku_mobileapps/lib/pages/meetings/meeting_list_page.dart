@@ -12,6 +12,8 @@ import 'meeting4_page.dart';
 import 'meeting5_page.dart';
 import 'meeting6_page.dart';
 import 'meeting7_page.dart';
+import 'meeting8_page.dart';
+
 
 class MeetingListPage extends StatefulWidget {
   const MeetingListPage({super.key});
@@ -98,6 +100,15 @@ class _MeetingListPageState extends State<MeetingListPage> {
         "isDone": false,
         "isBookmarked": false,
       },
+      {
+        "title": "Pertemuan 8",
+        "topic": "AutoComplete & Spinner",
+        "desc": "Membuat input saran otomatis dan pilihan dropdown pada Flutter.",
+        "icon": Icons.manage_search_rounded,
+        "level": "Medium",
+        "isDone": false,
+        "isBookmarked": false,
+      },
     ];
   }
 
@@ -153,6 +164,7 @@ class _MeetingListPageState extends State<MeetingListPage> {
       const Meeting5Page(),
       const Meeting6Page(),
       const Meeting7Page(),
+      const Meeting8Page(),
     ];
 
     final selectedTitle = filteredMeetings[index]["title"];
